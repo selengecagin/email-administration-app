@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61a36676-c01c-4aeb-a2e5-f23703d211cc" name="Changes" comment="Create EmailApp class" />
+    <list default="true" id="61a36676-c01c-4aeb-a2e5-f23703d211cc" name="Changes" comment="Create EmailApp class">
+      <change beforePath="$PROJECT_DIR$/src/emailapp/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emailapp/Email.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +26,20 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "selengecagin"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="bdffda72-4d7b-4d7c-b755-d6fd00423529" />
+        <option name="url" value="https://github.com/selengecagin/email-administration-app.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -56,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1721998939126</updated>
       <workItem from="1721998940124" duration="471000" />
-      <workItem from="1721999451767" duration="526000" />
+      <workItem from="1721999451767" duration="858000" />
     </task>
     <task id="LOCAL-00001" summary="Create EmailApp class">
       <option name="closed" value="true" />
@@ -66,7 +82,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721999618816</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create EmailApp class">
+      <option name="closed" value="true" />
+      <created>1722000010527</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722000010527</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Create EmailApp class">
+      <option name="closed" value="true" />
+      <created>1722000022012</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722000022012</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
