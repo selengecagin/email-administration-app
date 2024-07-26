@@ -1,18 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="61a36676-c01c-4aeb-a2e5-f23703d211cc" name="Changes" comment="" />
+    <list default="true" id="61a36676-c01c-4aeb-a2e5-f23703d211cc" name="Changes" comment="Update Email constructor to set department during initialization">
+      <change beforePath="$PROJECT_DIR$/src/emailapp/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emailapp/Email.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "selengecagin"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="bdffda72-4d7b-4d7c-b755-d6fd00423529" />
+        <option name="url" value="https://github.com/selengecagin/email-administration-app.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2jmj2PbltSd8sdEO8gOdvCLJEXZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,7 +55,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "development",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -36,8 +71,115 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721998939126</updated>
-      <workItem from="1721998940124" duration="1000" />
+      <workItem from="1721998940124" duration="471000" />
+      <workItem from="1721999451767" duration="2635000" />
     </task>
+    <task id="LOCAL-00001" summary="Create EmailApp class">
+      <option name="closed" value="true" />
+      <created>1721999618816</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721999618816</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Create EmailApp class">
+      <option name="closed" value="true" />
+      <created>1722000010527</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722000010527</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Create EmailApp class">
+      <option name="closed" value="true" />
+      <created>1722000022012</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722000022012</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add fields for user information and email settings">
+      <option name="closed" value="true" />
+      <created>1722000422367</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722000422367</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add constructor to receive firstName and lastName">
+      <option name="closed" value="true" />
+      <created>1722000597087</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722000597087</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add setDepartment method to Email class">
+      <option name="closed" value="true" />
+      <created>1722001077398</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722001077398</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add user input prompt to setDepartment method">
+      <option name="closed" value="true" />
+      <created>1722001173652</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722001173652</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Implement department selection logic">
+      <option name="closed" value="true" />
+      <created>1722001846729</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722001846729</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update department selection logic">
+      <option name="closed" value="true" />
+      <created>1722001892228</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722001892228</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update Email constructor to set department during initialization">
+      <option name="closed" value="true" />
+      <created>1722001961537</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1722001961537</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create EmailApp class" />
+    <MESSAGE value="Add fields for user information and email settings" />
+    <MESSAGE value="Add constructor to receive firstName and lastName" />
+    <MESSAGE value="Add setDepartment method to Email class" />
+    <MESSAGE value="Add user input prompt to setDepartment method" />
+    <MESSAGE value="Implement department selection logic" />
+    <MESSAGE value="Update department selection logic" />
+    <MESSAGE value="Update Email constructor to set department during initialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Email constructor to set department during initialization" />
   </component>
 </project>
