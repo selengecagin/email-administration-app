@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61a36676-c01c-4aeb-a2e5-f23703d211cc" name="Changes" comment="Add department confirmation output in Email constructor">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="61a36676-c01c-4aeb-a2e5-f23703d211cc" name="Changes" comment="Add random character selection to password generation logic">
       <change beforePath="$PROJECT_DIR$/src/emailapp/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emailapp/Email.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1721998939126</updated>
       <workItem from="1721998940124" duration="471000" />
-      <workItem from="1721999451767" duration="4203000" />
+      <workItem from="1721999451767" duration="4643000" />
     </task>
     <task id="LOCAL-00001" summary="Create EmailApp class">
       <option name="closed" value="true" />
@@ -163,7 +162,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722002260204</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add random password generation logic">
+      <option name="closed" value="true" />
+      <created>1722015779004</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1722015779004</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add random character selection to password generation logic">
+      <option name="closed" value="true" />
+      <created>1722015910362</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1722015910362</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +205,8 @@
     <MESSAGE value="Update department selection logic" />
     <MESSAGE value="Update Email constructor to set department during initialization" />
     <MESSAGE value="Add department confirmation output in Email constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add department confirmation output in Email constructor" />
+    <MESSAGE value="Add random password generation logic" />
+    <MESSAGE value="Add random character selection to password generation logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add random character selection to password generation logic" />
   </component>
 </project>

@@ -8,6 +8,7 @@ public class Email {
    private String password;
    private String department;
    private int mailboxCapacity;
+   private int defaultPasswordLength =10;
    private String alternateEmail;
 
 //Constructor to receive firstName and lastName
@@ -21,6 +22,8 @@ public class Email {
         System.out.println("Department: "+this.department);
 
         // Call a method that returns a random password
+        this.password = randomPassword(defaultPasswordLength);
+        System.out.println("Your password is: "+ this.password);
 
     }
 
