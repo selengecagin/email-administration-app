@@ -84,7 +84,7 @@ public String getPassword(){
 }
 
 public String showInformation(){
-        return "Display Name: "+ firstName + " " + lastName + "\nPassword: "+ password +"\nDepartment: "+department +"\nCompany Email:  " + email + "\nMailbox Capacity: " + mailboxCapacity + "mb";
+        return "Name: "+ firstName + " " + lastName + "\nPassword: "+ password +"\nDepartment: "+department +"\nCompany Email:  " + email + "\nMailbox Capacity: " + mailboxCapacity + "mb";
 }
 
 }
