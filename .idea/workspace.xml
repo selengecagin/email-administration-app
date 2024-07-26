@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61a36676-c01c-4aeb-a2e5-f23703d211cc" name="Changes" comment="Add getters for mailbox capacity, alternate email, and password">
+    <list default="true" id="61a36676-c01c-4aeb-a2e5-f23703d211cc" name="Changes" comment="Fix typos">
+      <change afterPath="$PROJECT_DIR$/src/emailapp/EmailAppUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/emailapp/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emailapp/Email.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/emailapp/EmailApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emailapp/EmailApp.java" afterDir="false" />
@@ -65,6 +66,26 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="EmailGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="emailapp.EmailGUI" />
+      <module name="email-administration-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="emailapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EmailGUI" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -220,7 +241,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722018163322</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Add showInformation method to display all user details">
+      <option name="closed" value="true" />
+      <created>1722018818420</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1722018818420</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Fix typos">
+      <option name="closed" value="true" />
+      <created>1722019116414</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1722019116414</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +291,8 @@
     <MESSAGE value="Add method to set mailbox capacity" />
     <MESSAGE value="Add methods to change user password and to set alternative email address" />
     <MESSAGE value="Add getters for mailbox capacity, alternate email, and password" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add getters for mailbox capacity, alternate email, and password" />
+    <MESSAGE value="Add showInformation method to display all user details" />
+    <MESSAGE value="Fix typos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix typos" />
   </component>
 </project>
