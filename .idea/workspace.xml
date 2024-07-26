@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61a36676-c01c-4aeb-a2e5-f23703d211cc" name="Changes" comment="Add constructor to receive firstName and lastName">
+    <list default="true" id="61a36676-c01c-4aeb-a2e5-f23703d211cc" name="Changes" comment="Add user input prompt to setDepartment method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/emailapp/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emailapp/Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/emailapp/EmailApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emailapp/EmailApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1721998939126</updated>
       <workItem from="1721998940124" duration="471000" />
-      <workItem from="1721999451767" duration="1584000" />
+      <workItem from="1721999451767" duration="2362000" />
     </task>
     <task id="LOCAL-00001" summary="Create EmailApp class">
       <option name="closed" value="true" />
@@ -116,7 +115,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722000597087</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add setDepartment method to Email class">
+      <option name="closed" value="true" />
+      <created>1722001077398</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722001077398</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add user input prompt to setDepartment method">
+      <option name="closed" value="true" />
+      <created>1722001173652</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722001173652</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +152,8 @@
     <MESSAGE value="Create EmailApp class" />
     <MESSAGE value="Add fields for user information and email settings" />
     <MESSAGE value="Add constructor to receive firstName and lastName" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add constructor to receive firstName and lastName" />
+    <MESSAGE value="Add setDepartment method to Email class" />
+    <MESSAGE value="Add user input prompt to setDepartment method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add user input prompt to setDepartment method" />
   </component>
 </project>
