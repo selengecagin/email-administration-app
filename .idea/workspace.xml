@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61a36676-c01c-4aeb-a2e5-f23703d211cc" name="Changes" comment="Create EmailApp class">
+    <list default="true" id="61a36676-c01c-4aeb-a2e5-f23703d211cc" name="Changes" comment="Add constructor to receive firstName and lastName">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/emailapp/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emailapp/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/emailapp/EmailApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emailapp/EmailApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1721998939126</updated>
       <workItem from="1721998940124" duration="471000" />
-      <workItem from="1721999451767" duration="858000" />
+      <workItem from="1721999451767" duration="1584000" />
     </task>
     <task id="LOCAL-00001" summary="Create EmailApp class">
       <option name="closed" value="true" />
@@ -98,7 +100,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722000022012</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add fields for user information and email settings">
+      <option name="closed" value="true" />
+      <created>1722000422367</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722000422367</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add constructor to receive firstName and lastName">
+      <option name="closed" value="true" />
+      <created>1722000597087</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722000597087</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +135,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create EmailApp class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create EmailApp class" />
+    <MESSAGE value="Add fields for user information and email settings" />
+    <MESSAGE value="Add constructor to receive firstName and lastName" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add constructor to receive firstName and lastName" />
   </component>
 </project>
