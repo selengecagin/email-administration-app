@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61a36676-c01c-4aeb-a2e5-f23703d211cc" name="Changes" comment="Define default value for mail box capacity">
+    <list default="true" id="61a36676-c01c-4aeb-a2e5-f23703d211cc" name="Changes" comment="Add methods to change user password and to set alternative email address">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/emailapp/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emailapp/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/emailapp/EmailApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emailapp/EmailApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +196,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722017410197</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Add method to set mailbox capacity">
+      <option name="closed" value="true" />
+      <created>1722017643626</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1722017643626</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add methods to change user password and to set alternative email address">
+      <option name="closed" value="true" />
+      <created>1722017836776</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1722017836776</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +243,8 @@
     <MESSAGE value="Add random character selection to password generation logic" />
     <MESSAGE value="Generate and display email address" />
     <MESSAGE value="Define default value for mail box capacity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Define default value for mail box capacity" />
+    <MESSAGE value="Add method to set mailbox capacity" />
+    <MESSAGE value="Add methods to change user password and to set alternative email address" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add methods to change user password and to set alternative email address" />
   </component>
 </project>
