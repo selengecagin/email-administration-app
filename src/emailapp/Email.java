@@ -63,6 +63,11 @@ public class Email {
     }
 
 //Set the mailbox capacity
+    public void setMailboxCapacity(int capacity){
+        this.mailboxCapacity = capacity;
+    }
+
+
 //Set the alternate email
 //Change the password
 
