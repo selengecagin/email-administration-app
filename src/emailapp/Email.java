@@ -17,20 +17,15 @@ public class Email {
     public Email(String firstName,String lastName){
         this.firstName=firstName;
         this.lastName=lastName;
-        System.out.println("Email Created: " + this.firstName+" "+this.lastName);
 
         //Call a method asking for the department, return the department
         this.department = setDepartment();
-        System.out.println("Department: "+this.department);
 
         // Call a method that returns a random password
         this.password = randomPassword(defaultPasswordLength);
-        System.out.println("Your password is: "+ this.password);
 
         //Combine elements to generate email
         email = firstName.toLowerCase() + "." + lastName.toLowerCase() + "@" + department +"."+ companySuffix;
-        System.out.println("Your email is: "+ email);
-
     }
 
 //Ask for the department
@@ -86,6 +81,10 @@ public String getAlternateEmail(){
 }
 public String getPassword(){
         return password;
+}
+
+public String showInformation(){
+        return "Display Name: "+ firstName + " " + lastName + "\nPassword: "+ password +"\nDepartment: "+department +"\nCompany Email:  " + email + "\nMailbox Capacity: " + mailboxCapacity + "mb";
 }
 
 }
