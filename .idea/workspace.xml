@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61a36676-c01c-4aeb-a2e5-f23703d211cc" name="Changes" comment="Update Email constructor to set department during initialization">
+    <list default="true" id="61a36676-c01c-4aeb-a2e5-f23703d211cc" name="Changes" comment="Add getters for mailbox capacity, alternate email, and password">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/emailapp/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emailapp/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/emailapp/EmailApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emailapp/EmailApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +29,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "selengecagin"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;selengecagin&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -50,19 +52,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "development",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;development&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1721998939126</updated>
       <workItem from="1721998940124" duration="471000" />
-      <workItem from="1721999451767" duration="2635000" />
+      <workItem from="1721999451767" duration="4643000" />
     </task>
     <task id="LOCAL-00001" summary="Create EmailApp class">
       <option name="closed" value="true" />
@@ -154,7 +156,71 @@
       <option name="project" value="LOCAL" />
       <updated>1722001961537</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add department confirmation output in Email constructor">
+      <option name="closed" value="true" />
+      <created>1722002260204</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1722002260204</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add random password generation logic">
+      <option name="closed" value="true" />
+      <created>1722015779004</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1722015779004</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add random character selection to password generation logic">
+      <option name="closed" value="true" />
+      <created>1722015910362</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1722015910362</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Generate and display email address">
+      <option name="closed" value="true" />
+      <created>1722017325252</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1722017325252</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Define default value for mail box capacity">
+      <option name="closed" value="true" />
+      <created>1722017410197</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1722017410197</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add method to set mailbox capacity">
+      <option name="closed" value="true" />
+      <created>1722017643626</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1722017643626</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add methods to change user password and to set alternative email address">
+      <option name="closed" value="true" />
+      <created>1722017836776</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1722017836776</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add getters for mailbox capacity, alternate email, and password">
+      <option name="closed" value="true" />
+      <created>1722018163322</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1722018163322</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +246,14 @@
     <MESSAGE value="Implement department selection logic" />
     <MESSAGE value="Update department selection logic" />
     <MESSAGE value="Update Email constructor to set department during initialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Email constructor to set department during initialization" />
+    <MESSAGE value="Add department confirmation output in Email constructor" />
+    <MESSAGE value="Add random password generation logic" />
+    <MESSAGE value="Add random character selection to password generation logic" />
+    <MESSAGE value="Generate and display email address" />
+    <MESSAGE value="Define default value for mail box capacity" />
+    <MESSAGE value="Add method to set mailbox capacity" />
+    <MESSAGE value="Add methods to change user password and to set alternative email address" />
+    <MESSAGE value="Add getters for mailbox capacity, alternate email, and password" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add getters for mailbox capacity, alternate email, and password" />
   </component>
 </project>
