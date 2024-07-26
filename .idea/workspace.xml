@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61a36676-c01c-4aeb-a2e5-f23703d211cc" name="Changes" comment="Add user input prompt to setDepartment method">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="61a36676-c01c-4aeb-a2e5-f23703d211cc" name="Changes" comment="Update department selection logic">
       <change beforePath="$PROJECT_DIR$/src/emailapp/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/emailapp/Email.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1721998939126</updated>
       <workItem from="1721998940124" duration="471000" />
-      <workItem from="1721999451767" duration="2362000" />
+      <workItem from="1721999451767" duration="2465000" />
     </task>
     <task id="LOCAL-00001" summary="Create EmailApp class">
       <option name="closed" value="true" />
@@ -131,7 +130,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722001173652</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Implement department selection logic">
+      <option name="closed" value="true" />
+      <created>1722001846729</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722001846729</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update department selection logic">
+      <option name="closed" value="true" />
+      <created>1722001892228</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722001892228</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +169,8 @@
     <MESSAGE value="Add constructor to receive firstName and lastName" />
     <MESSAGE value="Add setDepartment method to Email class" />
     <MESSAGE value="Add user input prompt to setDepartment method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add user input prompt to setDepartment method" />
+    <MESSAGE value="Implement department selection logic" />
+    <MESSAGE value="Update department selection logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update department selection logic" />
   </component>
 </project>
