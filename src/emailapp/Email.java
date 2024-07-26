@@ -19,6 +19,9 @@ public class Email {
         //Call a method asking for the department, return the department
         this.department = setDepartment();
         System.out.println("Department: "+this.department);
+
+        // Call a method that returns a random password
+
     }
 
 
@@ -38,9 +41,17 @@ public class Email {
             return "";
         }
     }
-
-
 //Generate random password
+    private String randomPassword(int length){
+        String passwordSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$½";
+        char[] password = new char[length];
+        for(int i =0;i<length;i++){
+            //generate random number
+         int randomValue = (int)(Math.random() * passwordSet.length());
+        }
+    }
+
+
 //Set the mailbox capacity
 //Set the alternate email
 //Change the password
