@@ -6,10 +6,12 @@ public class Email {
    private String firstName;
    private  String lastName;
    private String password;
+   private String email;
    private String department;
    private int mailboxCapacity;
    private int defaultPasswordLength =10;
    private String alternateEmail;
+   private String companySuffix = "companydomain.com";
 
 //Constructor to receive firstName and lastName
     public Email(String firstName,String lastName){
@@ -25,6 +27,10 @@ public class Email {
         this.password = randomPassword(defaultPasswordLength);
         System.out.println("Your password is: "+ this.password);
 
+        //Combine elements to generate email
+        email = firstName.toLowerCase() + "." + lastName.toLowerCase() + "@" + department +"."+ companySuffix;
+        System.out.println("Your email is: "+ email);
+
     }
 
 
@@ -35,11 +41,11 @@ public class Email {
         int deptChoice = in.nextInt();
 
         if(deptChoice == 1){
-            return "Sales";
+            return "sales";
         } else if (deptChoice == 2) {
-            return "Development";
+            return "development";
         } else if (deptChoice == 3) {
-            return "Accounting";
+            return "accounting";
         }else {
             return "";
         }
