@@ -26,13 +26,13 @@ public class Email {
         int deptChoice = in.nextInt();
 
         if(deptChoice == 1){
-            return "Sales";
+            return "sales";
         } else if (deptChoice == 2) {
-            return "Development";
+            return "dev";
         } else if (deptChoice == 3) {
-            return "Accounting";
+            return "acct";
         }else {
-            return "none";
+            return "";
         }
     }
 
