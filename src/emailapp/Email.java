@@ -8,7 +8,7 @@ public class Email {
    private String password;
    private String email;
    private String department;
-   private int mailboxCapacity;
+   private int mailboxCapacity = 500;
    private int defaultPasswordLength =10;
    private String alternateEmail;
    private String companySuffix = "companydomain.com";
@@ -33,7 +33,6 @@ public class Email {
 
     }
 
-
 //Ask for the department
     public String setDepartment() {
         System.out.println("Department Codes \n1 for Sales\n2 for Development\n3 for Accounting\n0 for none\nEnter Department Code: ");
@@ -50,6 +49,7 @@ public class Email {
             return "";
         }
     }
+
 //Generate random password
     private String randomPassword(int length){
         String passwordSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$½";
@@ -61,7 +61,6 @@ public class Email {
         }
         return new String(password) ;
     }
-
 
 //Set the mailbox capacity
 //Set the alternate email
