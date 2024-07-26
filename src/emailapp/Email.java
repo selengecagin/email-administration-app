@@ -48,7 +48,9 @@ public class Email {
         for(int i =0;i<length;i++){
             //generate random number
          int randomValue = (int)(Math.random() * passwordSet.length());
+         password[i] =passwordSet.charAt(randomValue);
         }
+        return new String(password) ;
     }
 
 
